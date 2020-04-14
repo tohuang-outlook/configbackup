@@ -69,6 +69,7 @@ for device in devices:
 file = open(today + ' devicebackup.txt', 'r')
 f = file.read()
 
+
 email_user = 'tohuang@outlook.com'
 email_send = 'netops@heartflow.com'
 subject = 'Network Devices Config Backup Completed on ' + today
